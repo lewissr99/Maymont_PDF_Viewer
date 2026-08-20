@@ -748,7 +748,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: true,
   kind: OptionKind.API
 }], ["cMapUrl", {
-  value: "../web/cmaps/",
+  value: "./web/cmaps/",
   kind: OptionKind.API
 }], ["disableAutoFetch", {
   value: false,
@@ -778,7 +778,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: false,
   kind: OptionKind.API
 }], ["iccUrl", {
-  value: "../web/iccs/",
+  value: "./web/iccs/",
   kind: OptionKind.API
 }], ["isOffscreenCanvasSupported", {
   value: true,
@@ -790,7 +790,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: false,
   kind: OptionKind.API
 }], ["standardFontDataUrl", {
-  value: "../web/standard_fonts/",
+  value: "./web/standard_fonts/",
   kind: OptionKind.API
 }], ["useSystemFonts", {
   value: undefined,
@@ -800,7 +800,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: 1,
   kind: OptionKind.API
 }], ["wasmUrl", {
-  value: "../web/wasm/",
+  value: "./web/wasm/",
   kind: OptionKind.API
 }], ["workerPort", {
   value: null,
