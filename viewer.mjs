@@ -724,7 +724,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: 150,
   kind: OptionKind.VIEWER
 }], ...[["sandboxBundleSrc", {
-  value: "../build/pdf.sandbox.mjs",
+  value: "./build/pdf.sandbox.mjs",
   kind: OptionKind.VIEWER
 }]], ["sidebarViewOnLoad", {
   value: -1,
@@ -806,7 +806,7 @@ const defaultOptions = new Map([["allowedGlobalEvents", {
   value: null,
   kind: OptionKind.WORKER
 }], ["workerSrc", {
-  value: "../build/pdf.worker.mjs",
+  value: "./build/pdf.worker.mjs",
   kind: OptionKind.WORKER
 }]]);
 class AppOptions {
